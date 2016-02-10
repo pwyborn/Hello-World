@@ -1,0 +1,1 @@
+{"virtualbox":{"/srv/salt-formula/nginx":{"guestpath":"/srv/salt-formula/nginx","hostpath":"/Users/paulwyborn/projects/nginx-formula/nginx","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/paulwyborn/projects/Hello-World","disabled":false}}}

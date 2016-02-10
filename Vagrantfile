@@ -8,7 +8,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     node.vm.box = "puppetlabs/ubuntu-14.04-64-nocm"
     node.vm.network :forwarded_port, guest: 80, host: 3009, auto_correct: true
-
   end
 
   config.vm.define "Hello-World1", secondary: true do |node|

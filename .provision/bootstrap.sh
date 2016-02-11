@@ -14,4 +14,12 @@ sudo service nginx restart
 sudo rm -Rf /var/www
 
 # symlink /var/www => /vagrant
+
+sudo apt-get install -y rails
+sudo apt-get install -y rvm
+sudo rvm install -y ruby
+sudo apt-get -y ruby-railties-4.0
+bundle install
+rails s -p 3009
+
 ln -s /vagrant /var/www

@@ -23,6 +23,7 @@ cd my-project-deploy/
 ### Running tests on the app running in the boxr
 # ssh into the virtual machine
 	vagrant ssh [Hello-World1 or Hello-World2 or Hello-World3]
+
 # Set up superuser
 *  vi (or vim) /etc/sudoers
 *  i (for insert) 
@@ -31,6 +32,8 @@ cd my-project-deploy/
 
 ### In browser
 *  http://localhost:3009/  (this at least tests that nginx is up and running - as well as the test when Vagrantbox is created/provisioned)
+*  Automated test for nginx listening on port 80 is "test_port.sh" runs at "Vagrant Up" or "Vagrant Provision"
+
 ### Dependencies
 * Virtual Box  - install from https://www.virtualbox.org/wiki/Downloads
 * Vagrant - install from http://www.vagrantup.com/downloads.html

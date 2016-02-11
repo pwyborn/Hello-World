@@ -29,7 +29,8 @@ cd my-project-deploy/
 *  change line vagrant ALL=(ALL) NOPASSWD:ALL
 *  change line %admin <user> sudo  (did not have time to implement automation of this) 
 
-
+### In browser
+*  http://localhost:3009/  (this at least tests that nginx is up and running - as well as the test when Vagrantbox is created/provisioned)
 ### Dependencies
 * Virtual Box  - install from https://www.virtualbox.org/wiki/Downloads
 * Vagrant - install from http://www.vagrantup.com/downloads.html

@@ -21,8 +21,13 @@ cd my-project-deploy/
         vagrant provision
 
 ### Running tests on the app running in the boxr
-
-	vagrant ssh 			                 # ssh into the virtual machine
+# ssh into the virtual machine
+	vagrant ssh [Hello-World1 or Hello-World2 or Hello-World3]
+# Set up superuser
+*  vi (or vim) /etc/sudoers
+*  i (for insert) 
+*  change line vagrant ALL=(ALL) NOPASSWD:ALL
+*  change line %admin <user> sudo  (did not have time to implement automation of this) 
 
 
 ### Dependencies
